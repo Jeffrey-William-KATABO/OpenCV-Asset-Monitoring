@@ -7,7 +7,6 @@ from mediapipe.tasks import python
 import paho.mqtt.client as mqtt
 from datetime import datetime
 import time
-import base64
 
 # Loading the trained model from the .h5 file
 model = tf.keras.models.load_model('modele.h5')
